@@ -1,0 +1,10 @@
+<h1><%= @book.title %></h1>
+
+<p>
+   <strong>Price: </strong> $<%= @book.page_count %><br />
+   <strong>Author</strong> <%= @book.author_id %><br />
+</p>
+
+<hr />
+
+<%= link_to 'Back', {:action => 'list'} %>
